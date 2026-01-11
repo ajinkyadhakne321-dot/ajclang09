@@ -1,0 +1,5 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.autoSaveWhenNoErrors": true,
+    "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": true
+}
