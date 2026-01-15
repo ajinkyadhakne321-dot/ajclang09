@@ -1669,5 +1669,189 @@
 //         return 0;
 // }
 
-//Write a program to create an array of 10 integers and store multiplication table of
-//5 in it.
+// chap 8 strings
+
+// #include <stdio.h>
+
+// int main(){
+//         char st[] = {'a' , 'b' , 'c' , '\0' };
+//         printf("first character is %c\n", st[0]);
+
+//         return 0;
+// }
+
+
+//create a string using double quotes and print its content using loop
+
+// #include <stdio.h>
+
+// int main(){
+//         int str[] = {'a', 'j', 'i', '\0'};
+//         for (int i = 0; i < 3; i++){
+//                 printf("string character is%c\n", str[i]);
+//         }
+//         return 0;
+// }
+
+// #include <stdio.h>
+
+// int main(){
+//         int str[] = {'a', 'j', 'i', '\0'};
+//         for (int i = 0; i < 3; i++){
+//                 printf("%c", str[i]);
+//         }
+//         return 0;
+// }
+
+// #include <stdio.h>
+
+// int main(){
+//         char str[] = "ajinkya";
+//         printf("%s\n", str);
+        
+//         return 0;
+// }
+
+// #include <stdio.h>
+
+// int main(){
+//         char str[4];
+//         scanf("%s\n", str);
+//         printf("%s\n", str);
+        
+//         return 0;
+// }
+
+// #include <stdio.h>
+
+// int main(){
+//         char str[40];
+//         gets(str); //the entered string is stored in it
+//         printf("%s", str);
+//         return 0;
+// }
+
+// #include <stdio.h>
+
+// int main(){
+//         char str[40];
+//         puts(str); //the entered string is stored in it and take cursor to next line
+//         printf("%s", str);
+//         printf("hey");
+//         return 0;
+// }
+
+// declering string using pointers
+
+// #include <stdio.h>
+
+// int main(){
+//         char str[] = "ajinkya";
+//         char* ptr = str;
+//         printf("string at adress ptr is %s", *ptr);
+
+//         return 0;
+// }
+
+//strlen
+//strcpy
+// strcat
+//strcmp
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+        // char str[] = "ajinkya";
+        
+        // printf("length of the string is %lu\n", strlen(str));
+
+        // char target[20];
+        // printf("both string after strcpy %s\n", strcpy(target, str));
+        // printf("both string after strcpy %s", (target));
+
+        // char a1[76] = "ajinkya";
+        // char a2[87] = " dhakne";
+        // printf("both string after strcpy %s", strcat(a1, a2));
+        
+        
+        //printf("both str
+        //ing after strcpy %d", strcmp("deep", "joke"));
+        
+
+//         return 0;
+// }
+
+//WAP a program to take string as an input from the user using %c and %s confirm that the strings are equal
+
+
+
+//#include <stdio.h>
+
+//int main(){
+        //char str1[6];
+        //for(int i = 0; i < 6; i++){
+                //scanf("%s", &str1[i]);
+                //fflush(stdin);
+        //}
+        
+        //str1[5] = '\0';
+
+        //printf("%s", str1);
+        //return 0;
+        
+//}
+
+
+//write your nown version of strlen function from <string.h>
+
+//#include <stdio.h>
+//#include <string.h>
+//int main(){
+   //     char str1[] = "ajinkya";
+
+   //     printf("length of the string is %lu", strlen(str1));
+   //     return 0;
+//}
+
+// waf slice() to slice a string. it should change the orignal string such that it is now the sliced string.
+// take m and n as the start and ending position for slice
+
+// #include <stdio.h>
+// char* slice(char str[], int m, int n){ //char* returns the pointer value
+//         int i = 0;
+//         char *ptr1 = &str[m]; //ptr stroe value st adress m and n
+//         char *ptr2 = &str[n];
+
+//         str = ptr1;
+//         str[n] = '\0';
+//         return str;
+
+// }
+
+
+// int main(){
+//         char str[] = "lamborghni urus";
+
+//         printf("%s", slice(str, 1, 4));
+
+//         return 0;
+// }       
+
+//write your own version of strcpy function from <string.h>
+
+
+
+//write the program to encrypted a string by adding 1 to the ascii value of its character
+
+//wap to decrypt the string encrypted using encrypt function in problem 6
+
+//wap to decrypt the string encrypted using encrypt function in problem 6
+
+//wap to count the occurance of a given character in a string
+
+//wap to check weather a given character is present in astring or not
+
+
+
+
+
+
