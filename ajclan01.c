@@ -1851,7 +1851,163 @@
 //wap to check weather a given character is present in astring or not
 
 
+// chap9 structures
+
+// #include <stdio.h>
+// #include <string.h>
+// struct employee{
+//         int code;
+//         float salary;
+//         char name[10];
+// };
 
 
+// int main(){
+//         struct employee e1;
+//         strcpy(e1.name, "HARRY");
+//         e1.code = 100;
+//         e1.salary = 71.22;
+//         printf("%s %d %f", e1.name, e1.code, e1.salary);
+//         return 0;
+// }
 
+// quiz
+//write a program to store the details of 3 employee  
+//from user defined data use the structure declared aboved 
+
+// #include <stdio.h>
+// #include <string.h>
+// struct employee{
+//         int code;
+//         float salary;
+//         char name[10];
+// };
+
+
+// int main(){
+//         struct employee e1, e2, e3;
+        
+//         printf("enter the name of employee\n");
+//         scanf("%s", &e1.name);
+
+//         printf("enter the code of employee\n");
+//         scanf("%d", &e1.code);
+
+//         printf("enter the salary of employee\n");
+//         scanf("%f", &e1.salary);
+
+
+        
+//         printf("%s %d %f", e1.name, e1.code, e1.salary);
+//         return 0;
+// }
+
+//array of structures
+
+// #include <stdio.h>
+// #include <string.h>
+// struct employee{
+//         int code;
+//         float salary;
+//         char name[10];
+// };
+
+// int main(){
+//         struct employee facebook[100];
+        
+//         facebook[0].salary = 100;
+//         facebook[1].code = 77;
+//         struct employee harry = {100, 71.22, "harry"};
+
+        
+//         printf("%s %d %f", harry.name, harry.code, harry.salary);
+//         return 0;
+// }
+
+
+// #include <stdio.h>
+// #include <string.h>
+// struct employee{
+//         int code;
+//         float salary;
+//         char name[10];
+// };
+
+// int main(){
+//         struct employee e1;
+//         e1.code = 54;
+//         strcpy(e1.name,"ajinkya");
+//         struct employee *ptr;
+//         ptr = &e1;
+
+//         printf("%s\n", (*ptr).name);
+//         printf("%d", (*ptr).code);
+        
+//         return 0;
+// }
+
+//arrow operator (output is same as above code)
+
+// 
+
+// #include <stdio.h>
+// #include <string.h>
+// struct employee{
+//         int code;
+//         float salary;
+//         char name[10];
+// };
+
+// int main(){
+//         struct employee e1;
+//         e1.code = 54;
+//         strcpy(e1.name,"ajinkya");
+//         struct employee *ptr;
+//         ptr = &e1;
+
+//         printf("%s\n", ptr->name);
+//         printf("%d", ptr->code);
+        
+//         return 0;
+// }
+
+// pasing structure to function
+
+//quick quiz pass the structure to function
+
+// typedef keyword
+
+//creating our own data type
+
+// #include <stdio.h>
+
+// int main(){
+//         typedef int harry;
+//         harry a = 34;
+//         printf("%d", a);
+//         return 0;
+// }
+
+//creating structure data type
+
+// #include <stdio.h>
+// #include <string.h>
+// typedef struct employee{
+//         int code;
+//         float salary;
+//         char name[10];
+// }pz;
+
+// int main(){
+//         pz e1;
+//         e1.code = 54;
+//         strcpy(e1.name,"ajinkya");
+//         pz *ptr;
+//         ptr = &e1;
+
+//         printf("%s\n", (*ptr).name);
+//         printf("%d\n", (*ptr).code);
+//         printf("%s\n", e1.name);
+//         return 0;
+// }
 
