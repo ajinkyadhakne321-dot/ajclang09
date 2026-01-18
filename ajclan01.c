@@ -1992,7 +1992,8 @@
 
 // #include <stdio.h>
 // #include <string.h>
-// typedef struct employee{
+// 
+//typedef struct employee{
 //         int code;
 //         float salary;
 //         char name[10];
@@ -2011,3 +2012,99 @@
 //         return 0;
 // }
 
+// create a two dimensional vector using structures in c.
+
+// #include <stdio.h>
+
+// struct vector {
+//         int i;
+//         int j;
+// };
+// int main(){
+//         struct vector v = {1, 2};
+//         printf("the value of vector is %di + %dj", v.i , v.j);
+//         return 0;
+// }
+
+// wap a function sum vector which returns the sum of two vectors passed to it 
+//the vectors must be two dimensional
+
+// #include<stdio.h>
+
+// typedef struct vector_sum{
+        
+//         int i;
+//         int j;
+        
+// }sum;
+// int main(){
+//         int v1_i;
+//         int v1_j;
+//         printf("enter the v1_i & v1_j ");
+//         scanf("%d, %d\n", &v1_i ,&v1_j);
+
+//         int v2_i;
+//         int v2_j;
+//         printf("enter the v2_i & v2_j ");
+//         scanf("%d, %d\n", &v2_i ,&v2_j);
+        
+//         sum v1 = {v1_i, v1_j}, v2 = {v2_i, v2_j};
+//         //sum v2 = {1, 2};
+//         // v1.i = 1;
+//         // v1.j = 2;
+//         // v2.i = 1;
+        // v2.j = 2;
+//         printf("the value of vector is %di + %dj", v1.i + v2.i , v1.j + v2.j);
+
+//         return 0;
+// }
+
+// #include<stdio.h>
+
+// typedef struct vector{
+        
+//         int i;
+//         int j;
+        
+// }sum;
+
+// struct vector sum_vector(int v1.i,int v1.j ){
+
+// }
+
+
+// int main(){
+//         int i;
+//         int j;
+        
+//         sum v1, v2 = {1, 2}, {1, 2};
+//         v1.i = 1;
+//         v1.j = 2;
+//         v2.i = 1;
+     
+//         printf("the value of vector is %di + %dj", v1.i + v2.i , v1.j + v2.j);
+
+//         return 0;
+// }
+
+// twenty integers are to be stored in memory what will you prefer array or structure
+
+
+
+// wap to illustrate the use of arrow operator -> in c
+
+// wap with a structure representing the complex number
+
+// create an array of 5 complex numbers created in problem 5 and display them with the help of a display function
+// the value must be taken as an input from the user 
+
+//write problem 5's structure using typedef keywords
+
+// create a structure representing the bank account of
+// costumer what fields did you use and why
+
+//write structure capable of storing date. write a function to compare those dates
+
+// solve prob 9 for time using typedef keyword
+
+// 
