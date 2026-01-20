@@ -2089,21 +2089,133 @@
 
 // twenty integers are to be stored in memory what will you prefer array or structure
 
-
+// array wil be used
 
 // wap to illustrate the use of arrow operator -> in c
 
+// #include <stdio.h>
+
+// typedef struct employe{
+//         int salary;
+//         float score;
+// }employe;
+
+// int main(){
+//         employe e1;
+//         employe * ptr = &e1;
+//         ptr->salary = 56;
+//         ptr->score = 545.896;
+//         printf("the salary and score is %d, %f",ptr->salary,ptr->score );
+//         return 0;
+// }
+
 // wap with a structure representing the complex number
+
+// #include <stdio.h>
+//  typedef struct complex{
+//         int real;
+//         int imaginary;
+//  }complex;
+// int main(){
+//         complex c1 = {1, 2};
+//         // c1.real = 2;
+//         // c1.imaginary = 6;
+//         printf("the salary and score is %d + %dx",c1.real, c1.imaginary );
+//         return 0;
+// }
 
 // create an array of 5 complex numbers created in problem 5 and display them with the help of a display function
 // the value must be taken as an input from the user 
 
+// #include <stdio.h>
+//  typedef struct complex{
+//         int real;
+//         int imaginary;
+//  }complex;
+
+//  void display(complex c){
+//         printf("the salary and score is %d + %dx\n",c.real, c.imaginary );
+//  }
+// int main(){
+//         complex c_array[5]; 
+//         for(int i = 0; i < 5; i++){
+                
+//                 printf("enter the real part \n");
+//                 scanf("%d\n", &c_array[i].real);
+//                 printf("enter the imaginary part \n");
+//                 scanf("%d\n", &c_array[i].real);
+//                 display(c_array[i]);
+          
+//         }
+        
+//         return 0;
+// }
+
 //write problem 5's structure using typedef keywords
+
+
 
 // create a structure representing the bank account of
 // costumer what fields did you use and why
 
+// #include <stdio.h>
+
+//  struct bankacc{
+//         int accountno;
+//         char name[34];
+//         char ifsccode[12];
+//         float bankbalance;
+//  };
+// int main(){
+
+//         return 0;
+// }
+
 //write structure capable of storing date. write a function to compare those dates
+
+// #include <stdio.h>
+
+// struct date {
+//         int mm;
+//         int dd;
+//         int yyyy;
+
+// };
+
+// int compare(struct date d1, struct date d2){
+//         if((d1.yyyy == d2.yyyy) && (d1.mm == d2.mm) && (d1.dd == d2.dd)){
+//                 return 0;
+//         }
+//         if (d1.yyyy > d2.yyyy)
+//         {
+//                 return 1;
+//         }
+//         else if(d1.mm > d2.mm){
+//                 return 1;
+//         }
+//         else if(d1.dd > d2.dd){
+//                 return 1;
+//         }
+//         else if (d1.yyyy < d2.yyyy)
+//         {
+//                 return -1;
+//         }
+//         else if(d1.mm < d2.mm){
+//                 return -1;
+//         }
+//         else if(d1.dd < d2.dd){
+//                 return -1;
+//         }
+
+//         }
+// int main(){
+//         struct date d1 = {12, 4, 2004};
+//         struct date d2 = {12, 4, 20014};
+//         printf("%d", compare(d1, d2));
+
+
+//         return 0;
+// }       
 
 // solve prob 9 for time using typedef keyword
 
